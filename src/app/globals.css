@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-image: url('../../public/img/konoha.png');
+    background-size: cover;
+    background-position: 0 -20vh;
+}
+
+.font-counter {
+    color: #fff;
+    -webkit-text-stroke: 3px #ea580c;
+    font-size: 6rem;
+    font-weight: 700;
+    margin: 2rem 0;
+    letter-spacing: 5px;
+    font-family: 'Comic Neue', cursive;
+}
